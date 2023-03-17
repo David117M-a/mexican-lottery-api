@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "52bf7530-1641-44b0-8d3b-0f0b2b23797d",
+		"name": "Lottery",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16804205"
+	},
+	"item": [
+		{
+			"name": "GetAllCards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/lottery/cards",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"lottery",
+						"cards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllTables",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/lottery/tables",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"lottery",
+						"tables"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GenerateTables",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/lottery/generateTables/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"lottery",
+						"generateTables",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
