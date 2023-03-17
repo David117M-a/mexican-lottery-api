@@ -2,7 +2,7 @@
 ## Requirements
 - You need to have already installed NodeJs and SQL Server with User and Password login configurated.
 
-## Steps to run de project
+## Steps to run the project
 - Run `npm install`.
 - Then create the ".env" file in the project's root.
 - Now create the USERDB=YOURUSERDBHERE and PASSDB=YOURPASSDBHERE inside .env file.
